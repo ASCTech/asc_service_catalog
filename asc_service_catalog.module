@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ASC Service Catalog feature.
+ */
+
+include_once 'asc_service_catalog.features.inc';
