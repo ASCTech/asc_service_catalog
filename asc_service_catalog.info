@@ -36,7 +36,6 @@ features[node][] = service_description
 features[taxonomy][] = asc_service_audience
 features[taxonomy][] = asc_service_category
 features[taxonomy][] = asc_service_portfolio
-features[user_permission][] = administer taxonomy
 features[user_permission][] = create service_description content
 features[user_permission][] = delete any service_description content
 features[user_permission][] = delete own service_description content
