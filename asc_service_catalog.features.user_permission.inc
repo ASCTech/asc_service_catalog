@@ -10,13 +10,6 @@
 function asc_service_catalog_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: administer taxonomy.
-  $permissions['administer taxonomy'] = array(
-    'name' => 'administer taxonomy',
-    'roles' => array(),
-    'module' => 'taxonomy',
-  );
-
   // Exported permission: create service_description content.
   $permissions['create service_description content'] = array(
     'name' => 'create service_description content',
