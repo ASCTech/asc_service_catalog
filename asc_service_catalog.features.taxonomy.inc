@@ -56,7 +56,7 @@ function asc_service_catalog_taxonomy_default_vocabularies() {
       ),
     ),
     'asc_service_portfolio' => array(
-      'name' => 'Service Portfolio',
+      'name' => 'Service Group',
       'machine_name' => 'asc_service_portfolio',
       'description' => '',
       'hierarchy' => '0',

@@ -9,6 +9,10 @@
  */
 function asc_service_catalog_ctools_plugin_api() {
   list($module, $api) = func_get_args();
+  if ($module == "field_group" && $api == "field_group") {
+    return array("version" => "1");
+  }
+  list($module, $api) = func_get_args();
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -31,7 +35,7 @@ function asc_service_catalog_node_info() {
       'base' => 'node_content',
       'description' => t('College of Arts and Sciences Service Description'),
       'has_title' => '1',
-      'title_label' => t('Title'),
+      'title_label' => t('Service Name'),
       'help' => '',
     ),
   );
